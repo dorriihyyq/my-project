@@ -1,13 +1,177 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  background-color: rgb(217, 217, 218);
+  font-size: 1rem;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+.p1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background-color: rgb(13, 110, 253);
+
+}
+
+.nav ul li {
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+}
+
+#menuList {
+  font-weight: bold;
+  color: rgb(247, 242, 236);
+  text-decoration: none;
+}
+
+.section {
+  display: flex;
+  padding: 30px 15px;
+  scroll-behavior: smooth;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.PFP {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  padding-left: 80px;
+}
+
+.profile-btns {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.custom-btn {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.colored {
+  background-color: #D0E3FF;
+}
+
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 30px 15px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  text-align: center;
+  border: solid gray 1px;
+}
+
+.projects {
+  flex-direction: column;
+}
+
+#project-pic {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10%;
+}
+
+#skills {
+  flex-direction: column;
+}
+
+.skill {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 15%;
+}
+
+#feedback {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#feedback-photo {
+  width: 180px;
+  height: 180px;
+  margin-right: 10px;
+}
+
+.feedback-box {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  gap: 10%;
+}
+
+.feedback-card {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.feedback-text {
+  display: flex;
+  flex-direction: column;
 }
