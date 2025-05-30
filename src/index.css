@@ -651,3 +651,51 @@ textarea.input {
       min-height: 120px;
   }
 }
+
+
+@media (max-width: 768px) {
+ 
+  .nav{
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 8px 0;
+    background-color: rgba(13, 110, 253, 0.95); 
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  #menu {
+    display: inline-flex;
+    padding: 0 15px;
+  }
+
+  #menuList {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  #menuList:active {
+    transform: scale(0.95);
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  #menuList.active {
+    background: rgba(255, 204, 0, 0.25);
+    font-weight: 700;
+  }
+
+  @media (max-width: 480px) {
+    #menuList {
+      padding: 8px 12px;
+      font-size: 0.85rem;
+    }
+  }
+}
