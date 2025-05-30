@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dorriihyyq/my-project/static/css/main.e97f5318.css",
-    "main.js": "/dorriihyyq/my-project/static/js/main.ee5f3ddf.js",
-    "static/media/Feedback2.png": "/dorriihyyq/my-project/static/media/Feedback2.41000470d556ab979605.png",
-    "static/media/Feedback1.png": "/dorriihyyq/my-project/static/media/Feedback1.78bbe5a2ca97a5ba5c97.png",
-    "static/media/Alexey.png": "/dorriihyyq/my-project/static/media/Alexey.28ff8982f849972ed793.png",
-    "static/media/Project1.png": "/dorriihyyq/my-project/static/media/Project1.2079b6545943ec04a55b.png",
-    "static/media/Project2.png": "/dorriihyyq/my-project/static/media/Project2.f5827c33b23c7c89c45a.png",
-    "static/media/Project3.png": "/dorriihyyq/my-project/static/media/Project3.f377d227d5f0ad7b2df8.png",
-    "static/media/Logo.png": "/dorriihyyq/my-project/static/media/Logo.79ccdf1805e18b0bc6db.png",
-    "index.html": "/dorriihyyq/my-project/index.html",
-    "static/media/envelope-paper.svg": "/dorriihyyq/my-project/static/media/envelope-paper.7af3be59915f2a716d7b2c51bc904cac.svg",
-    "main.e97f5318.css.map": "/dorriihyyq/my-project/static/css/main.e97f5318.css.map",
-    "main.ee5f3ddf.js.map": "/dorriihyyq/my-project/static/js/main.ee5f3ddf.js.map"
+    "main.css": "/static/css/main.e97f5318.css",
+    "main.js": "/static/js/main.87a64749.js",
+    "static/media/Feedback2.png": "/static/media/Feedback2.41000470d556ab979605.png",
+    "static/media/Feedback1.png": "/static/media/Feedback1.78bbe5a2ca97a5ba5c97.png",
+    "static/media/Alexey.png": "/static/media/Alexey.28ff8982f849972ed793.png",
+    "static/media/Project1.png": "/static/media/Project1.2079b6545943ec04a55b.png",
+    "static/media/Project2.png": "/static/media/Project2.f5827c33b23c7c89c45a.png",
+    "static/media/Project3.png": "/static/media/Project3.f377d227d5f0ad7b2df8.png",
+    "static/media/Logo.png": "/static/media/Logo.79ccdf1805e18b0bc6db.png",
+    "index.html": "/index.html",
+    "static/media/envelope-paper.svg": "/static/media/envelope-paper.7af3be59915f2a716d7b2c51bc904cac.svg",
+    "main.e97f5318.css.map": "/static/css/main.e97f5318.css.map",
+    "main.87a64749.js.map": "/static/js/main.87a64749.js.map"
   },
   "entrypoints": [
     "static/css/main.e97f5318.css",
-    "static/js/main.ee5f3ddf.js"
+    "static/js/main.87a64749.js"
   ]
 }
