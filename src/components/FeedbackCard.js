@@ -5,8 +5,8 @@ function FeedbackCard(props) {
         <div className='feedback-card'>
             <img src={props.photo} id="feedback-photo"></img>
             <div className='feedback-text'>
-            <h2>{props.name}</h2>
-            <p>{props.text}</p>
+                <h2>{props.name}</h2>
+                <p>{props.text}</p>
             </div>
         </div>
     )
